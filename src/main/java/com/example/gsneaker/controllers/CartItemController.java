@@ -1,11 +1,9 @@
 package com.example.gsneaker.controllers;
 
-import com.example.gsneaker.models.CartItem;
 import com.example.gsneaker.response.BaseResponse;
 import com.example.gsneaker.response.CartItemResponse;
 import com.example.gsneaker.services.Impl.CartItemService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
