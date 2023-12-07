@@ -1,5 +1,7 @@
 ## Bắt Đầu
 
+Link deploy: https://g-sneaker-vbvi.onrender.com
+
 ### Yêu Cầu Hệ Thống
 
 Để chạy ứng dụng, bạn cần cài đặt các công cụ sau:
