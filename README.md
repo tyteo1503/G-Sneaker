@@ -1,7 +1,3 @@
-# G-Sneaker
-
-G-Sneaker là một ứng dụng Spring Boot mã nguồn mở nhằm cung cấp thông tin về các mô hình giày sneaker phổ biến.
-
 ## Bắt Đầu
 
 ### Yêu Cầu Hệ Thống
@@ -18,6 +14,7 @@ Mở terminal và chạy lệnh sau để clone repository:
 ```bash
 git clone https://github.com/tyteo1503/G-Sneaker.git
 cd G-Sneaker
+```
 
 ### Import vào IntelliJ IDEA
 
@@ -27,5 +24,14 @@ cd G-Sneaker
 
 ### Chạy Ứng Dụng
 
-Mở src/main/java/com/your/package/name/Application.java.
+Mở src\main\java\com\example\gsneaker\GSneakerApplication.java.
 Nhấn chuột phải và chọn "Run 'Application'" hoặc nhấn Shift + F10.
+
+## Sử dụng Postman để test API:
+
+### GET https://g-sneaker-vbvi.onrender.com/api/v1/products: Lấy danh sách tất cả sản phẩm
+![Alt Text](./image/getProduct.png)
+### GET https://g-sneaker-vbvi.onrender.com/api/v1/cart/items): Lấy danh sách tất cả sản phẩm có trong giỏ hàng
+### POST https://g-sneaker-vbvi.onrender.com/api/v1/cart/add-item/2 : Thêm sản phẩm vào giỏ hàng
+### PUT https://g-sneaker-vbvi.onrender.com/api/v1/cart/update-item/2?change_amount=1: Cập nhật số lượng sản phẩm trong giỏ hàng
+### DELETE https://g-sneaker-vbvi.onrender.com/api/v1/cart/delete-item/2 : Xoá một sản phẩm trong giỏ hàng
