@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("${api.prefix}/cart")
+@CrossOrigin(origins = "http://localhost:5500")
 @RequiredArgsConstructor
 public class CartItemController {
     private final CartItemService cartItemService;

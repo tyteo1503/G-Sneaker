@@ -1,6 +1,7 @@
 D:\Workspace\SpringBoot\G-Sneaker\src\main\java\com\example\gsneaker\exceptions\NotFoundException.java
 D:\Workspace\SpringBoot\G-Sneaker\src\main\java\com\example\gsneaker\exceptions\NullPointerException.java
 D:\Workspace\SpringBoot\G-Sneaker\src\main\java\com\example\gsneaker\services\IProductService.java
+D:\Workspace\SpringBoot\G-Sneaker\src\main\java\com\example\gsneaker\config\CorsConfig.java
 D:\Workspace\SpringBoot\G-Sneaker\src\main\java\com\example\gsneaker\models\CartItem.java
 D:\Workspace\SpringBoot\G-Sneaker\src\main\java\com\example\gsneaker\services\ICartItemService.java
 D:\Workspace\SpringBoot\G-Sneaker\src\main\java\com\example\gsneaker\repositories\CartItemRepository.java
