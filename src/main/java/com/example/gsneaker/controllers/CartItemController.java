@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("${api.prefix}/cart")
-@CrossOrigin(origins = "http://localhost:5500")
+@CrossOrigin(origins = "https://bespoke-flan-08f4da.netlify.app")
 @RequiredArgsConstructor
 public class CartItemController {
     private final CartItemService cartItemService;
