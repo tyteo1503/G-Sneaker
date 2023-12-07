@@ -30,7 +30,6 @@ Nhấn chuột phải và chọn "Run 'Application'" hoặc nhấn Shift + F10.
 ## Sử dụng Postman để test API:
 
 ### GET https://g-sneaker-vbvi.onrender.com/api/v1/products: Lấy danh sách tất cả sản phẩm
-![Alt Text](./image/getProduct.png)
 ### GET https://g-sneaker-vbvi.onrender.com/api/v1/cart/items): Lấy danh sách tất cả sản phẩm có trong giỏ hàng
 ### POST https://g-sneaker-vbvi.onrender.com/api/v1/cart/add-item/2 : Thêm sản phẩm vào giỏ hàng
 ### PUT https://g-sneaker-vbvi.onrender.com/api/v1/cart/update-item/2?change_amount=1: Cập nhật số lượng sản phẩm trong giỏ hàng
