@@ -36,3 +36,7 @@ Nhấn chuột phải và chọn "Run 'Application'" hoặc nhấn Shift + F10.
 ### POST https://g-sneaker-vbvi.onrender.com/api/v1/cart/add-item/2 : Thêm sản phẩm vào giỏ hàng
 ### PUT https://g-sneaker-vbvi.onrender.com/api/v1/cart/update-item/2?change_amount=1: Cập nhật số lượng sản phẩm trong giỏ hàng
 ### DELETE https://g-sneaker-vbvi.onrender.com/api/v1/cart/delete-item/2 : Xoá một sản phẩm trong giỏ hàng
+
+## Các công nghệ sử dụng:
+- Backend framework: Spring Boot
+- Database: PostgreSQL
